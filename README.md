@@ -1,8 +1,9 @@
 # cli-setup
-my current setup/workspace when utilizing the command line.
+'hyper-solarized-dark'
 
 ## what I use
 
-Hyper.is
-Oh-My-ZSH
-  Agnoster Theme (Customized)
+* [Hyper.is](https://hyper.is)
+* [Oh-My-ZSH](https://ohmyz.sh)
+  * [Agnoster Theme](https://github.com/agnoster/agnoster-zsh-theme)
+* [Visual Studio Code](https://code.visualstudio.com)
