@@ -7,3 +7,4 @@
   * [Oh-My-ZSH Settings](https://gist.github.com/williamleiby/b069b86313dc1fa1d56ce0acf6faf822)
   * [Agnoster Theme Settings](https://gist.github.com/williamleiby/3b414ea24a1c5bd2884d6da82f36e7a2)
 * [Visual Studio Code](https://code.visualstudio.com)
+  * [VS Code Settings](https://gist.github.com/williamleiby/c1fd081608962dc067c660efcb45709c)
