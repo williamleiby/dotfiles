@@ -1,5 +1,4 @@
-# cli-setup
-'hyper-solarized-dark'
+# my settings
 
 ## what I use
 
