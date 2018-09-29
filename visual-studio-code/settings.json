@@ -1,0 +1,27 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.wordWrap": "on",
+  "editor.cursorStyle": "line-thin",
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false
+  },
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorBlinking": "phase",
+  "editor.renderWhitespace": "all",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "npm.packageManager": "yarn",
+  "editor.snippetSuggestions": "bottom",
+  "workbench.startupEditor": "newUntitledFile",
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "workbench.colorTheme": "Material Theme Palenight"
+}
