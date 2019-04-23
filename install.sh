@@ -32,5 +32,8 @@ done
 # Download Git Auto-Completion
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" >${homedir}/.git-completion.bash
 
-# Run the Homebrew Script
+# Run the Homebrew script
 ./homebrew.sh
+
+# Run the chsh script
+./chsh.sh

@@ -18,14 +18,21 @@ brew install go
 
 # Install MacOS Applications
 brew cask install xcode
+brew cask install anaconda
 brew cask install lastpass
 brew cask install appcleaner
 brew cask install avast-security
 brew cask install cleanmymac
+brew cask install cleanmydrive
 brew cask install google-chrome
 brew cask install alfred
 brew cask install magnet
 brew cask install backblaze
+brew cask install docker
+brew cask install postgresql
+brew cask install postman
+brew cask install sketch
+brew cask install mactex
 brew cask install xmind
 brew cask install dropbox
 brew cask install cocoapods
