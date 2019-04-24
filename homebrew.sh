@@ -2,6 +2,8 @@
 
 # Install Brew Packages
 brew install python
+brew install autoenv
+brew install pipenv
 brew install tree
 brew install node
 brew install yarn
