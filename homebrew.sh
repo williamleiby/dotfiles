@@ -2,8 +2,8 @@
 
 # Install Brew Packages
 brew install python
-brew install autoenv
 brew install pipenv
+brew install autoenv
 brew install tree
 brew install node
 brew install yarn
@@ -13,7 +13,6 @@ brew install youtube-dl
 brew install zsh
 brew install circle-ci
 brew install heroku
-brew install pipenv
 brew install postgresql
 brew install redis
 brew install go
