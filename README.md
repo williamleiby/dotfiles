@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/williamleiby/dotfiles/tree/master.svg?style=svg)](https://circleci.com/gh/williamleiby/dotfiles/tree/master) [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/williamleiby/dotfiles)
 
-Static portfolio application showcasing my work in software engineering.
+Dotfiles & dotfolders for the most common programming technologies I use.
 
 ## Prerequisites 🎟
 
