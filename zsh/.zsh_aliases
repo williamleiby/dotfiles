@@ -1,1 +1,7 @@
-
+alias c="clear"
+alias cd="cd && ls"
+alias ytdl="youtube-dl"
+alias pdf="percollate pdf --output new-pdf.pdf"
+alias attach="tmux a -t"
+alias killsesh="tmux kill-session -t"
+alias pip="pip3"
