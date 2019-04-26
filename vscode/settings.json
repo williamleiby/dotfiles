@@ -1,0 +1,71 @@
+{
+  "breadcrumbs.enabled": true,
+  "cSpell.allowCompoundWords": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line-thin",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "bottom",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascriptreact",
+    "*.sol": "solidity",
+    "*.jsx": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/.DS_Store": false,
+    "**/.git": false,
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/CVS": false
+  },
+  "guides.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "npm.packageManager": "yarn",
+  "python.pythonPath": "/anaconda3",
+  "solidity.soliumRules": {
+    "imports-on-top": 0,
+    "indentation": [
+      "double",
+      2
+    ],
+    "quotes": [
+      "error",
+      "double"
+    ],
+    "variable-declarations": 0
+  },
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontWeight": "500",
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.jediEnabled": false, // Medium
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.2)",
+    "rgba(16,16,16,0.3)",
+  ],
+  "editor.fontFamily": "Fira Code",
+  "code-runner.runInTerminal": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "latex-workshop.message.update.show": false,
+  "git.enableSmartCommit": true,
+}
