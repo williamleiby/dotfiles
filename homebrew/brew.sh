@@ -7,6 +7,7 @@ brew install autoenv
 brew install tree
 brew install node
 brew install yarn
+brew install git
 brew install nvm
 brew install tmux
 brew install youtube-dl
@@ -17,7 +18,7 @@ brew install postgresql
 brew install redis
 brew install go
 
-# Install MacOS Applications
+# Install macOS Applications
 brew cask install xcode
 brew cask install anaconda
 brew cask install lastpass
@@ -42,6 +43,7 @@ brew cask install transmit
 brew cask install malwarebytes
 brew cask install tunnelbear
 brew cask install kindle
+brew cask install discord
 brew cask install slack
 brew cask install pdf-expert
 brew cask install itsycal
@@ -65,4 +67,4 @@ brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 
 # Install CocoaPods
-gem install cocoapods
+# gem install cocoapods
