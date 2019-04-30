@@ -4,7 +4,6 @@
 brew install python
 brew install pyenv
 brew install pipenv
-brew install autoenv
 brew install tree
 brew install node
 brew install yarn
