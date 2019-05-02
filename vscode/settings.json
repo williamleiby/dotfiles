@@ -1,71 +1,72 @@
 {
-  "breadcrumbs.enabled": true,
-  "cSpell.allowCompoundWords": true,
-  "editor.autoClosingBrackets": "always",
+  // Editor
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "500",
   "editor.cursorBlinking": "phase",
   "editor.cursorStyle": "line-thin",
-  "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
   "editor.renderWhitespace": "all",
   "editor.snippetSuggestions": "bottom",
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "editor.suggestSelection": "first",
+  "editor.autoClosingBrackets": "always",
+  "editor.minimap.enabled": false,
+  "editor.insertSpaces": true,
+  // Files
+  "files.associations": {
+    "*.jsx": "javascriptreact"
+  },
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false
+  },
+  // Workbench
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
   "extensions.showRecommendationsOnlyOnDemand": true,
-  "files.associations": {
-    "*.html": "html",
-    "*.js": "javascriptreact",
-    "*.sol": "solidity",
-    "*.jsx": "javascriptreact"
+  // Python
+  "python.autoComplete.addBrackets": true,
+  "python.testing.promptToConfigure": false,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
   },
-  "files.exclude": {
-    "**/.DS_Store": false,
-    "**/.git": false,
-    "**/.hg": false,
-    "**/.svn": false,
-    "**/CVS": false
-  },
-  "guides.enabled": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "npm.packageManager": "yarn",
-  "python.pythonPath": "/anaconda3",
-  "solidity.soliumRules": {
-    "imports-on-top": 0,
-    "indentation": [
-      "double",
-      2
-    ],
-    "quotes": [
-      "error",
-      "double"
-    ],
-    "variable-declarations": 0
-  },
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontWeight": "500",
-  "workbench.colorTheme": "One Dark Pro Vivid",
+  // JavaScript
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "python.jediEnabled": false, // Medium
+  // Extras
+  "breadcrumbs.enabled": true,
+  "guides.enabled": false,
+  "window.zoomLevel": 0,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // Extenstions
+  "npm.packageManager": "yarn",
+  "code-runner.runInTerminal": true,
   "indentRainbow.colors": [
     "rgba(16,16,16,0.1)",
     "rgba(16,16,16,0.2)",
-    "rgba(16,16,16,0.3)",
+    "rgba(16,16,16,0.3)"
   ],
-  "editor.fontFamily": "Fira Code",
-  "code-runner.runInTerminal": true,
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "liveServer.settings.donotShowInfoMsg": true,
   "latex-workshop.message.update.show": false,
-  "git.enableSmartCommit": true,
 }
