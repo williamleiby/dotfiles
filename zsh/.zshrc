@@ -99,10 +99,11 @@ alias zshrc="open ~/.zshrc"
 alias c="clear"
 # tmux
 alias attach="tmux a -t"
-alias killsesh="tmux kill-session -t"
+alias killsession="tmux kill-session -t"
 # python
 alias pip="pip3"
 alias python="python3"
+alias venv="python3 -m venv"
 # extras
 alias ytdl="youtube-dl"
 alias matrix="screen"
