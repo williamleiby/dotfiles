@@ -50,7 +50,16 @@ HIST_STAMPS="dd/mm/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=()
+plugins=(
+  vscode
+  iterm2
+  yarn
+  tmux
+  # custom
+  zsh-autosuggestions
+  zsh-completions
+  zsh-syntax-highlighting
+)
 
 # Disables username from showing.
 DEFAULT_USER=williamleiby
@@ -85,16 +94,20 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # aliases
 
+# shell
 alias zshrc="open ~/.zshrc"
 alias c="clear"
+# tmux
+alias attach="tmux a -t"
+alias killsesh="tmux kill-session -t"
+# python
+alias pip="pip3"
+alias python="python3"
+# extras
 alias ytdl="youtube-dl"
 alias matrix="screen"
 alias pdf="percollate pdf --output new-pdf.pdf"
 alias cheat="cht.sh"export PATH="$HOME/.rbenv/bin:$PATH"
-alias attach="tmux a -t"
-alias killsesh="tmux kill-session -t"
-alias pip="pip3"
-alias python="python3"
 
 # Ruby stuff.
 eval "$(rbenv init -)"
@@ -109,8 +122,6 @@ if [ -f '/Users/williamleiby/google-cloud-sdk/completion.zsh.inc' ]; then . '/Us
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
 
-source ~/.nvm/nvm.sh
-
 autoload -U promptinit
 promptinit
 export PYENV_ROOT="$HOME/.pyenv"
@@ -118,3 +129,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
+
+source ~/.nvm/nvm.sh
