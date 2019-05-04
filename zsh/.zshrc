@@ -109,6 +109,7 @@ alias ytdl="youtube-dl"
 alias matrix="screen"
 alias pdf="percollate pdf --output new-pdf.pdf"
 alias cheat="cht.sh"export PATH="$HOME/.rbenv/bin:$PATH"
+alias killpsql="sudo pkill -u postgres"
 
 # Ruby stuff.
 eval "$(rbenv init -)"
