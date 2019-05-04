@@ -2,6 +2,9 @@
   // Editor
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
+  "editor.letterSpacing": 0.5,
+  "editor.fontSize": 12,
+  "editor.lineHeight": 0,
   "editor.fontWeight": "500",
   "editor.cursorBlinking": "phase",
   "editor.cursorStyle": "line-thin",
@@ -17,9 +20,15 @@
   "editor.autoClosingBrackets": "always",
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
+  // Terminal
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.cursorBlinking": true,
   // Files
   "files.associations": {
-    "*.jsx": "javascriptreact"
+    "*.jsx": "javascriptreact",
+    "*.html": "html"
   },
   "files.exclude": {
     "**/.git": false,
@@ -36,6 +45,11 @@
   "workbench.settings.editor": "json",
   "workbench.settings.openDefaultSettings": true,
   "workbench.settings.useSplitJSON": true,
+  "workbench.statusBar.feedback.visible": false,
+  // Zen Mode
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
   // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -45,6 +59,11 @@
   "python.autoComplete.addBrackets": true,
   "python.testing.promptToConfigure": false,
   "python.pythonPath": "/usr/local/bin/python3",
+  "python.formatting.provider": "yapf",
+  "python.linting.enabled": true,
+  "python.jediEnabled": false,
+  "python.linting.lintOnSave": true,
+  "python.testing.pyTestEnabled": true,
   "[python]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
@@ -55,18 +74,24 @@
   "breadcrumbs.enabled": true,
   "guides.enabled": false,
   "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 12,
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   // Extenstions
   "npm.packageManager": "yarn",
-  "code-runner.runInTerminal": true,
+  "liveServer.settings.donotShowInfoMsg": true,
   "indentRainbow.colors": [
     "rgba(16,16,16,0.1)",
     "rgba(16,16,16,0.2)",
     "rgba(16,16,16,0.3)"
   ],
-  "liveServer.settings.donotShowInfoMsg": true,
-  "latex-workshop.message.update.show": false,
+  // Code Runner
+  "code-runner.runInTerminal": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName"
+  }
 }
