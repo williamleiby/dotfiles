@@ -1,0 +1,34 @@
+[{
+    "key": "ctrl+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k m",
+    "command": "-workbench.action.editor.changeLanguageMode"
+  },
+  {
+    "key": "cmd+l",
+    "command": "console.log.wrap.down.prefix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+w ctrl+alt+down",
+    "command": "-console.log.wrap.down.prefix",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+n",
+    "command": "workbench.action.addRootFolder"
+  }
+]
