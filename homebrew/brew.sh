@@ -9,6 +9,7 @@ brew install node
 brew install yarn
 brew install git
 brew install nvm
+brew install tophat/bar/yvm
 brew install tmux
 brew install youtube-dl
 brew install zsh
