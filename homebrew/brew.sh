@@ -16,6 +16,7 @@ brew install zsh
 brew install circle-ci
 brew install heroku
 brew install postgresql
+brew install mysql
 brew install redis
 brew install go
 
