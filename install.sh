@@ -5,6 +5,9 @@
 # And sets Sublime preferences
 ############################
 
+# Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 if [ "$#" -ne 1 ]; then
   echo "Usage: install.sh <home_directory>"
   exit 1
@@ -33,7 +36,7 @@ done
 curl "https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash" >${homedir}/.git-completion.bash
 
 # Run the Homebrew script
-./homebrew.sh
+./homebrew/brew.sh
 
 # Run the chsh script
-./chsh.sh
+# ./chsh.sh
