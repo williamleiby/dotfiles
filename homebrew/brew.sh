@@ -22,7 +22,7 @@ brew install go
 
 # Install macOS Applications
 brew cask install xcode
-brew cask install anaconda
+brew cask install java
 brew cask install lastpass
 brew cask install appcleaner
 brew cask install avast-security
