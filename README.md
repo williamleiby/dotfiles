@@ -8,6 +8,7 @@ Dotfiles & dotfolders for the most common programming technologies I use.
 
 ## Prerequisites 🎟
 
+* [Git](https://git-scm.com) - Version Control
 * Terminal
 
 ## Installation 👷‍♂️
@@ -34,10 +35,10 @@ $ ./install.sh
 
 [William Leiby](https://github.com/williamleiby)
 
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
 ## Acknowledgements 👏
 
 [Corey Schafer](https://github.com/CoreyMSchafer)
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
