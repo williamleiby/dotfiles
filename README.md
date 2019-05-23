@@ -1,6 +1,9 @@
 # Dotfiles 🗃
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/williamleiby/dotfiles)
 
+![Dotfiles Drawing](dotfiles.svg)
+
+
 Dotfiles & dotfolders for the most common programming technologies I use.
 
 ## Prerequisites 🎟
