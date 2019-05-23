@@ -1,8 +1,14 @@
+# shell
+alias zshrc="open ~/.zshrc"
 alias c="clear"
-alias cd="cd && ls"
+# tmux
+alias attach="tmux a -t"
+alias killsession="tmux kill-session -t"
+# python
+alias pip="pip3"
+alias python="python3"
+# extras
 alias ytdl="youtube-dl"
 alias pdf="percollate pdf --output new-pdf.pdf"
-alias attach="tmux a -t"
-alias killsesh="tmux kill-session -t"
-alias python="python3"
-alias pip="pip3"
+alias killpsql="sudo pkill -u postgres"
+alias sqlpro="open /Applications/Sequel\ Pro.app"
