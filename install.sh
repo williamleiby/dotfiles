@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-# Install Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 if [ "$#" -ne 1 ]; then
   echo "Usage: install.sh <home_directory>"
   exit 1
@@ -26,6 +23,9 @@ for file in ${files}; do
   echo "Creating symlink to $file in home directory."
   ln -sf ${dotfiledir}/.${file} ${homedir}/.${file}
 done
+
+# Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Run the Homebrew script
 ./homebrew/brew.sh
