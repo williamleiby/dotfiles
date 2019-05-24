@@ -19,6 +19,8 @@ Cloning the repository:
 $ git clone https://github.com/williamleiby/dotfiles.git
 ```
 
+## Getting Started 🐣
+
 Navigating inside of the project:
 
 ```bash
