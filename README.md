@@ -38,7 +38,7 @@ Runnning necessary scripts:
 $ ./install.sh
 ```
 
-## Author(s) ✍️
+## Authors ✍️
 
 [William Leiby](https://github.com/williamleiby)
 
