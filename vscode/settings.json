@@ -2,7 +2,7 @@
   // Editor
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.50,
   "editor.fontSize": 12,
   "editor.lineHeight": 0,
   "editor.fontWeight": "500",
@@ -20,6 +20,7 @@
   "editor.autoClosingBrackets": "always",
   "editor.minimap.enabled": false,
   "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
   // Terminal
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.fontFamily": "Fira Code",
@@ -27,6 +28,7 @@
   "terminal.integrated.cursorBlinking": true,
   // Files
   "files.associations": {
+    "*.js": "javascriptreact",
     "*.jsx": "javascriptreact",
     "*.html": "html"
   },
@@ -37,6 +39,7 @@
     "**/CVS": false,
     "**/.DS_Store": false
   },
+  "files.trimTrailingWhitespace": true,
   // Workbench
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -58,18 +61,22 @@
   // Python
   "python.autoComplete.addBrackets": true,
   "python.testing.promptToConfigure": false,
-  "python.pythonPath": "/usr/local/bin/python3",
+  "python.pythonPath": "~/.pyenv/versions/3.7.3/bin/python",
   "python.formatting.provider": "yapf",
   "python.linting.enabled": true,
   "python.jediEnabled": false,
   "python.linting.lintOnSave": true,
-  "python.testing.pyTestEnabled": true,
   "[python]": {
     "editor.insertSpaces": true,
     "editor.tabSize": 2
   },
   // JavaScript
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  // Java
+  "java.configuration.checkProjectSettingsExclusions": false,
   // Extras
   "breadcrumbs.enabled": true,
   "guides.enabled": false,
@@ -93,5 +100,5 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.executorMap": {
     "python": "$pythonPath -u $fullFileName"
-  }
+  },
 }
