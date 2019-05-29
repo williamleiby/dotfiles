@@ -19,6 +19,7 @@ brew install postgresql
 brew install mysql
 brew install redis
 brew install go
+brew install r
 
 # Install macOS Applications
 brew cask install xcode
