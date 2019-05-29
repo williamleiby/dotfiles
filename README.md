@@ -42,6 +42,10 @@ $ ./install.sh
 
 [William Leiby](https://github.com/williamleiby)
 
+## Acknowledgements 👏
+
+[Corey Schafer](https://github.com/CoreyMSchafer)
+
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
