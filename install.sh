@@ -28,4 +28,4 @@ done
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Run the Homebrew script
-./homebrew/brew.sh
+./homebrew/homebrew.sh
