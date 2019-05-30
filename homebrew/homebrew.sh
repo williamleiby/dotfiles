@@ -20,6 +20,7 @@ brew install mysql
 brew install redis
 brew install go
 brew install r
+brew install virtualbox-guest-utils
 
 # Install macOS Applications
 brew cask install xcode
