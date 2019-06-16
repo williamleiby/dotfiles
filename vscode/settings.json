@@ -77,6 +77,21 @@
   },
   // Java
   "java.configuration.checkProjectSettingsExclusions": false,
+  // Code Runner
+  "code-runner.runInTerminal": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.executorMap": {
+    "python": "$pythonPath -u $fullFileName"
+  },
+  // Extenstions
+  "npm.packageManager": "yarn",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "indentRainbow.colors": [
+    "rgba(16,16,16,0.1)",
+    "rgba(16,16,16,0.2)",
+    // "rgba(16,16,16,0.3)"
+  ],
   // Extras
   "breadcrumbs.enabled": true,
   "guides.enabled": false,
@@ -86,20 +101,5 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // Extenstions
-  "npm.packageManager": "yarn",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "indentRainbow.colors": [
-    "rgba(16,16,16,0.1)",
-    "rgba(16,16,16,0.2)",
-    // "rgba(16,16,16,0.3)"
-  ],
-  // Code Runner
-  "code-runner.runInTerminal": true,
-  "code-runner.showExecutionMessage": false,
-  "code-runner.clearPreviousOutput": true,
-  "code-runner.executorMap": {
-    "python": "$pythonPath -u $fullFileName"
-  },
   "latex-workshop.message.update.show": false,
 }
