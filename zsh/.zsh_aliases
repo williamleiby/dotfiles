@@ -2,6 +2,7 @@
 alias zshrc="open ~/.zshrc"
 alias c="clear"
 # tmux
+alias tmux="tmux -u"
 alias attach="tmux a -t"
 alias killsession="tmux kill-session -t"
 # python
