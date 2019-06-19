@@ -1,6 +1,7 @@
 # shell
 alias zshrc="open ~/.zshrc"
 alias c="clear"
+alias h="history"
 # tmux
 alias tmux="tmux -u"
 alias attach="tmux a -t"
