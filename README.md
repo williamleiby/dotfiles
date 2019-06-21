@@ -44,7 +44,7 @@ $ ./install.sh
 
 ## Acknowledgements 👏
 
-[Corey Schafer](https://github.com/CoreyMSchafer)
+[Corey Schafer](https://github.com/CoreyMSchafer) - Thank you for the idea!
 
 ## License 📄
 
