@@ -14,6 +14,7 @@ brew install tmux
 brew install youtube-dl
 brew install zsh
 brew install circle-ci
+brew tap heroku/brew
 brew install heroku
 brew install postgresql
 brew install mysql
@@ -69,6 +70,3 @@ brew cask install cocoapods
 # Install Fonts
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code
-
-# Install CocoaPods
-# gem install cocoapods
