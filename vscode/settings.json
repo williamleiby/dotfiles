@@ -1,7 +1,6 @@
+// Color Theme - One Dark Pro (Vivid)
+// File Icon Theme - Material Icon Theme
 {
-  // Color Theme - One Dark Pro (Vivid)
-  // File Icon Theme - Material Icon Theme
-  
   // Editor
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
@@ -33,7 +32,10 @@
   "files.associations": {
     "*.js": "javascriptreact",
     "*.jsx": "javascriptreact",
-    "*.html": "html"
+    "*.html": "html",
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
   "files.exclude": {
     "**/.git": false,
