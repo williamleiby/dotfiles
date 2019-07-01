@@ -1,0 +1,46 @@
+- Auto Close Tag
+- Auto Import
+- Auto Rename Tag
+- Babel JavaScript
+- Beautify
+- Better Comments
+- Bracket Pair Colorizer
+- Code Runner
+- Color Highlight
+- Custom CSS and JS Loader
+- Debugger for Chrome
+- Django
+- Docker
+- EditorConfig
+- ES7 React/Redux/GraphQL/React-Native Snippets
+- ESLint
+- File Utils
+- Guides
+- HTML CSS Support
+- HTML Snippets
+- Import Cost
+- Indent Rainbow
+- IntelliSense for CSS Slass Names in HTML
+- Java
+- Jest
+- jQuery Code Snippets
+- Kubernetes
+- LaTeX Workshop
+- Live Server
+- Live Share
+- Markdown All in One
+- Material Icon Theme
+- npm IntelliSense
+- One Dark Pro
+- Path IntelliSense
+- Prettier
+- Python
+- R
+- Sass
+- Terraform
+- TypeScript Hero
+- Visual Studio IntelliCode
+- VSCode-Styled-Components
+- WakaTime
+- Webpack
+- YAML
