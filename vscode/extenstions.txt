@@ -38,6 +38,7 @@
 - R
 - Sass
 - Terraform
+- TSLint
 - TypeScript Hero
 - Visual Studio IntelliCode
 - VSCode-Styled-Components
