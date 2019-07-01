@@ -22,6 +22,8 @@ brew install redis
 brew install go
 brew install r
 brew install terraform
+brew install rbenv
+brew install ruby-build
 brew install virtualbox-guest-utils
 
 # Install macOS Applications
