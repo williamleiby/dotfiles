@@ -13,23 +13,17 @@ Dotfiles & dotfolders for the most common programming technologies I use.
 
 ## Installation 👷‍♂️
 
-Option 1:
 * Install at the root level of your computer.
 ```bash
-$ cd ~/
-$ git clone https://github.com/williamleiby/dotfiles.git
+$ git clone git@github.com:williamleiby/dotfiles.git ~/.dotfiles
 ```
-
-Option 2:
-
-[Download the Repository as a ZIP File](https://github.com/williamleiby/dotfiles/archive/master.zip)
 
 ## Getting Started 🐣
 
 Navigating inside of the project:
 
 ```bash
-$ cd dotfiles
+$ cd .dotfiles/
 ```
 
 Runnning necessary scripts:
