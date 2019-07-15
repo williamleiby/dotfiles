@@ -27,5 +27,12 @@ done
 # Install Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# yarn
+
+if (( $+commands[yarn] ))
+then
+  export PATH="$PATH:`yarn global bin`"
+fi
+
 # Run the Homebrew script
 ./homebrew/homebrew.sh
