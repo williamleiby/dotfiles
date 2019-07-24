@@ -45,6 +45,7 @@
     "**/.DS_Store": false
   },
   "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
   // Workbench
   "workbench.activityBar.visible": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -53,7 +54,6 @@
   "workbench.settings.editor": "json",
   "workbench.settings.openDefaultSettings": true,
   "workbench.settings.useSplitJSON": true,
-  "workbench.statusBar.feedback.visible": false,
   // Zen Mode
   "zenMode.centerLayout": false,
   "zenMode.hideLineNumbers": false,
@@ -66,7 +66,7 @@
   // Python
   "python.autoComplete.addBrackets": true,
   "python.testing.promptToConfigure": false,
-  "python.pythonPath": "~/.pyenv/versions/3.7.3/bin/python",
+  "python.pythonPath": "/usr/local/bin/python3",
   "python.formatting.provider": "yapf",
   "python.linting.enabled": true,
   "python.jediEnabled": false,
@@ -80,6 +80,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
+  // ESLint
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
   // Java
   "java.configuration.checkProjectSettingsExclusions": false,
   // Code Runner
@@ -94,8 +97,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "indentRainbow.colors": [
     "rgba(16,16,16,0.1)",
-    "rgba(16,16,16,0.2)",
-    // "rgba(16,16,16,0.3)"
+    "rgba(16,16,16,0.2)"
   ],
   // Extras
   "breadcrumbs.enabled": true,
@@ -106,5 +108,5 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "latex-workshop.message.update.show": false,
+  "latex-workshop.message.update.show": false
 }
