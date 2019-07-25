@@ -14,6 +14,8 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 chflags nohidden ~/Library
 # Change screenshot directory to ~/Downloads
 defaults write com.apple.screencapture locations ~/Downloads
+# Changes default screenshot name.
+defaults write com.apple.screencapture name "screenshot"
 # Disables drop-shadow on screenshots.
 defaults write com.apple.screencapture disable-shadow -bool TRUE
 killall SystemUIServer
