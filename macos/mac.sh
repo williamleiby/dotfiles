@@ -14,6 +14,9 @@ defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 chflags nohidden ~/Library
 # Change screenshot directory to ~/Downloads
 defaults write com.apple.screencapture locations ~/Downloads
+# Disables drop-shadow on screenshots.
+defaults write com.apple.screencapture disable-shadow -bool TRUE
+killall SystemUIServer
 # Prevent apps from saving to iCloud
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool FALSE
 # Disables Dashboard completely
