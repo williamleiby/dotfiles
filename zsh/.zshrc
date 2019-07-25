@@ -6,7 +6,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="/Users/williamleiby/.oh-my-zsh"
 
 # Set name of the theme to load.
-ZSH_THEME="williamleiby-agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
