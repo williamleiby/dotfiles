@@ -10,3 +10,5 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 # Show the ~/Library folder.
 chflags nohidden ~/Library
+# Change screenshot directory to ~/Downloads
+defaults write com.apple.screencapture locations ~/Downloads
