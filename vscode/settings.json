@@ -63,6 +63,7 @@
   "extensions.showRecommendationsOnlyOnDemand": true,
   // Python
   "python.autoComplete.addBrackets": true,
+  "python.linting.flake8Enabled": true,
   "python.testing.promptToConfigure": false,
   "python.pythonPath": "/usr/local/bin/python3",
   "python.formatting.provider": "yapf",
@@ -77,6 +78,9 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "[jsonc]": {
     "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // ESLint
   "eslint.packageManager": "yarn",
@@ -97,6 +101,7 @@
     "rgba(16,16,16,0.1)",
     "rgba(16,16,16,0.2)"
   ],
+  "latex-workshop.message.update.show": false,
   // Extras
   "breadcrumbs.enabled": true,
   "guides.enabled": false,
@@ -106,5 +111,4 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "latex-workshop.message.update.show": false
 }
