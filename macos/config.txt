@@ -1,0 +1,47 @@
+As for right now, I have to make these changes manually as I don't know the commands needed to execute them in my CLI.
+
+I. System Preferences
+- General
+  - Dark Mode
+  - Accent Color: Blue
+  - Highlight Color: Blue
+  - Auto Hide/Show Menu Bar: On
+  - Show Scroll Bars: When Scrolling
+  - Default Web Browser: Google Chrome
+  - Close Windows When Quitting Apps
+  - Recent Items: None
+  - Allow Handoff Between Mac and iCloud
+  - Use Font Smoothing: On
+  
+ - Desktop
+  - Desktop: Black Background
+  - Screensaver: Padburry Clock
+
+- Dock
+  - Size: 1/5 Total
+  - Magnification: Off
+  - Position: Bottom
+  - Genie Effect
+  - Animate Opening Apps: On
+  - Auto Hide/Show Dock: On
+  - Show Indicaters for Open Apps: On
+  
+- Mission Control
+  - Group Windows by Application: On
+  - Displays Have Separate Spaces: On
+  
+- Language & Region
+  - Preferred Language: English (US)
+  - Region: US
+  - First Day of Week: Sunday
+  - Calendar: Gregorian
+  - 24 Hour Clock: On
+  - Temperature: F
+  
+- Security & Privacy
+  - Require Password: 5 Minutes
+  - Allow Apple Watch to Unlock Mac: On
+  - Allow Apps From: App Store and Identified Developers
+  - FireVault: On
+  - Firewall: On
+    - Allow Built-In Softwa
