@@ -102,6 +102,7 @@
     "rgba(16,16,16,0.2)"
   ],
   "latex-workshop.message.update.show": false,
+  "material-icon-theme.activeIconPack": "react_redux",
   // Extras
   "breadcrumbs.enabled": true,
   "guides.enabled": false,
