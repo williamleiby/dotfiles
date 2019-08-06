@@ -38,10 +38,26 @@ I. System Preferences
   - 24 Hour Clock: On
   - Temperature: F
   
-- Security & Privacy
+- Security & Privacy (Go Through & Customize Privacy)
   - Require Password: 5 Minutes
   - Allow Apple Watch to Unlock Mac: On
   - Allow Apps From: App Store and Identified Developers
   - FireVault: On
   - Firewall: On
-    - Allow Built-In Softwa
+    - Auto Allow Built-In Software to Receive Incoming Connections: On
+    - Auto Allow Signed Software to Receive Incoming Connections: On
+    
+ - Spotlight Search: Off
+ 
+ - Notifications
+  - Everything: Off
+  - Do Not Disturb: 22:00 - 06:00
+
+- Display
+  - Resolution: Default
+  - Rotation: Standard
+  - Refresh Rate: Highest
+  - Show Mirroring Options in Menu Bar When Available: On
+  - Display Profile: Default
+  - Night Shift Schedule: Sunrise to Sunset
+  - Color Temperature: Warmest
