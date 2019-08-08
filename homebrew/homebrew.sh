@@ -14,6 +14,9 @@ brew install zsh
 brew install circle-ci
 brew tap heroku/brew
 brew install heroku
+
+heroku update
+
 brew install postgresql
 
 sudo mkdir -p /etc/paths.d &&
