@@ -15,6 +15,10 @@ brew install circle-ci
 brew tap heroku/brew
 brew install heroku
 brew install postgresql
+
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+
 brew install mysql
 brew install redis
 brew install go
