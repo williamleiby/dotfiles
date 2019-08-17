@@ -1,36 +1,3 @@
-# Install Brew Packages
-brew install python
-brew install pyenv
-brew install pipenv
-brew install tree
-brew install node
-brew install yarn
-brew install git
-brew install nvm
-brew install tophat/bar/yvm
-brew install tmux
-brew install youtube-dl
-brew install zsh
-brew install circle-ci
-brew tap heroku/brew
-brew install heroku
-
-heroku update
-
-brew install postgresql
-
-sudo mkdir -p /etc/paths.d &&
-echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
-
-brew install mysql
-brew install redis
-brew install go
-brew install r
-brew install terraform
-brew install rbenv
-brew install ruby-build
-brew install virtualbox-guest-utils
-
 # Install macOS Applications
 brew cask install xcode
 brew cask install java
@@ -71,6 +38,40 @@ brew cask install vlc
 brew cask install cocoapods
 brew cask install little-snitch
 
-# Install Fonts
+# Install Brew Packages
+brew install python
+brew install pyenv
+brew install pipenv
+brew install tree
+brew install node
+brew install yarn
+brew install git
+brew install nvm
+brew install tophat/bar/yvm
+brew install tmux
+brew install youtube-dl
+brew install zsh
+brew install circle-ci
+brew tap heroku/brew
+brew install heroku
+brew install postgresql
+brew install mysql
+brew install redis
+brew install go
+brew install r
+brew install terraform
+brew install rbenv
+brew install ruby-build
+brew install virtualbox-guest-utils
+
+# Fonts
 brew tap homebrew/cask-fonts
 brew cask install font-fira-code
+
+# Extras
+
+# PostgreSQL
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+# Heroku
+heroku update
