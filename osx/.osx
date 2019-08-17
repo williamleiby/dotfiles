@@ -4,16 +4,27 @@ defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 softwareupdate -i -a
 # Show hidden files in Finder.
 defaults write com.apple.finder AppleShowAllFiles -bool TRUE
+# Show all file extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
 # Set a really fast key repeat.
 defaults write NSGlobalDomain KeyRepeat -int 0
 # Open finder in list view always
 defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+# Sets Desktop as main new window in Finder
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 # Show the ~/Library folder.
 chflags nohidden ~/Library
+# Quits out of the 'Printer' application once printing has completed.
+defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
+# Requires password right after screen wakes from sleep.
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Change screenshot directory to ~/Downloads
 defaults write com.apple.screencapture locations ~/Downloads
+# Adds iOS Simulator to Applications
+sudo ln -sf /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications/Simulator.app
 # Changes default screenshot name.
 defaults write com.apple.screencapture name "screenshot"
 # Disables drop-shadow on screenshots.
@@ -21,5 +32,24 @@ defaults write com.apple.screencapture disable-shadow -bool TRUE
 killall SystemUIServer
 # Prevent apps from saving to iCloud
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool FALSE
-# Disables Dashboard completely
+# Disables Dashboard completely.
 defaults write com.apple.dashboard mcx-disabled -boolean TRUE
+# Disables Game Center completely.
+launchctl unload /System/Library/LaunchAgents/com.apple.gamed.plist 2> /dev/null
+# Save to Disk is set to default
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+# Save screenshots in 'PNG' format.
+defaults write com.apple.screencapture type -string "png"
+# Enable snap-to-grid for icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:arrangeBy grid" ~/Library/Preferences/com.apple.finder.plist
+# Set the size of icons on the desktop and in other icon views
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:iconSize 64" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 64" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 64" ~/Library/Preferences/com.apple.finder.plist
+# Use column view in all Finder windows by default
+# Four-letter codes for the other view modes: `icnv`, `Nlsv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
+# Set the icon size of Dock items
+defaults write com.apple.dock tilesize -int 30
