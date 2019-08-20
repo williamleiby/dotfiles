@@ -74,5 +74,6 @@ brew cask install font-fira-code
 # PostgreSQL
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+/usr/local/opt/postgres/bin/createuser -s postgres
 # Heroku
 heroku update
