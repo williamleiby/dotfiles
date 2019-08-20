@@ -9,7 +9,6 @@ brew cask install google-chrome
 brew cask install alfred
 brew cask install magnet
 brew cask install backblaze
-brew cask install docker
 brew cask install postgresql
 brew cask install postman
 brew cask install sketch
@@ -30,6 +29,7 @@ brew cask install speedtest
 brew cask install firefox
 brew cask install visual-studio-code
 brew cask install virtualbox
+brew cask install docker
 brew cask install sourcetree
 brew cask install spotify
 brew cask install iterm2
@@ -44,6 +44,7 @@ brew install pyenv
 brew install pipenv
 brew install tree
 brew install node
+brew install getsentry/tools/sentry-cli
 brew install yarn
 brew install git
 brew install nvm
@@ -74,5 +75,6 @@ brew cask install font-fira-code
 # PostgreSQL
 sudo mkdir -p /etc/paths.d &&
 echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+/usr/local/opt/postgres/bin/createuser -s postgres
 # Heroku
 heroku update
