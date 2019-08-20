@@ -10,6 +10,7 @@ brew cask install alfred
 brew cask install magnet
 brew cask install backblaze
 brew cask install postgresql
+brew cask install pgadmin4
 brew cask install postman
 brew cask install sketch
 brew cask install xmind
