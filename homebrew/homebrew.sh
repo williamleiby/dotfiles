@@ -64,6 +64,7 @@ brew install asdf
 brew install postgresql
 brew install mysql
 brew install redis
+brew install mongodb
 brew install go
 brew install r
 brew install terraform

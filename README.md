@@ -15,7 +15,7 @@ Dotfiles & dotfolders for the most common programming technologies I use.
 
 * Install at the root level of your computer.
 ```bash
-$ git clone git@github.com:williamleiby/dotfiles.git ~/.dotfiles
+$ git clone https://github.com/williamleiby/dotfiles.git ~/.dotfiles
 ```
 
 ## Getting Started 🐣
