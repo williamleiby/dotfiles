@@ -10,6 +10,7 @@ brew cask install alfred
 brew cask install magnet
 brew cask install backblaze
 brew cask install postgresql
+brew cask install pgadmin4
 brew cask install postman
 brew cask install sketch
 brew cask install xmind
@@ -39,6 +40,7 @@ brew cask install cocoapods
 brew cask install little-snitch
 
 # Install Brew Packages
+brew install hub
 brew install python
 brew install pyenv
 brew install pipenv
@@ -55,6 +57,10 @@ brew install zsh
 brew install circle-ci
 brew tap heroku/brew
 brew install heroku
+brew tap thoughtbot/formulae
+brew install rcm
+brew install the_silver_searcher
+brew install asdf
 brew install postgresql
 brew install mysql
 brew install redis
@@ -64,6 +70,7 @@ brew install r
 brew install terraform
 brew install rbenv
 brew install ruby-build
+brew install watchman
 brew install virtualbox-guest-utils
 
 # Fonts
