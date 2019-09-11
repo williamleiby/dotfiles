@@ -61,3 +61,15 @@ I. System Preferences
   - Display Profile: Default
   - Night Shift Schedule: Sunrise to Sunset
   - Color Temperature: Warmest
+
+Users & Groups
+  - Login Items
+    - Magnet
+    - CleanMyMacX
+    - LastPass
+    - Itsyacal
+    - Backup and Sync
+    - Flux
+    - Amphetamine
+    - Alfred 3
+    - Dropbox
