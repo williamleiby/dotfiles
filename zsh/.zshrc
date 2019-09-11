@@ -19,7 +19,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 DISABLE_AUTO_UPDATE="false"
 
 # Uncomment the following line to change how often to auto-update (in days).
-export UPDATE_ZSH_DAYS=7
+export UPDATE_ZSH_DAYS=1
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -54,14 +54,15 @@ plugins=(
   vscode
   iterm2
   yarn
+  nvm
+  git
   tmux
-  # custom
   zsh-autosuggestions
   zsh-completions
   zsh-syntax-highlighting
 )
 
-# Disables username from showing.
+# Disables username from showing in prompt.
 DEFAULT_USER=williamleiby
 
 source $ZSH/oh-my-zsh.sh
@@ -98,6 +99,16 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias zshrc="open ~/.zshrc"
 alias c="clear"
 alias h="history"
+alias ls="gls -F --color"
+alias l="gls -lAh --color"
+alias ll="gls -l --color"
+alias la='gls -A --color'
+alias top="vtop"
+alias oldtop="/usr/bin/top"
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
 # tmux
 alias tmux="tmux -u"
 alias attach="tmux a -t"
@@ -109,24 +120,12 @@ alias python="python3"
 alias ytdl="youtube-dl"
 alias pdf="percollate pdf --output new-pdf.pdf"
 alias killpsql="sudo pkill -u postgres"
-alias sqlpro="open /Applications/Sequel\ Pro.app"
 # ssh
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
-# overwrites
-alias ls="gls -F --color"
-alias l="gls -lAh --color"
-alias ll="gls -l --color"
-alias la='gls -A --color'
 
 # Ruby stuff.
 eval "$(rbenv init -)"
 export PATH="$PATH:$HOME/.rvm/bin"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/williamleiby/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/williamleiby/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/williamleiby/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/williamleiby/google-cloud-sdk/completion.zsh.inc'; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 export PATH="/usr/local/sbin:$PATH"
@@ -140,3 +139,18 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 
 source ~/.nvm/nvm.sh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/williamleiby/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/williamleiby/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/williamleiby/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/williamleiby/google-cloud-sdk/completion.zsh.inc'; fi
+
+export YVM_DIR=/Users/williamleiby/.yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+# Environment Variables
+
+. /Users/williamleiby/.nix-profile/etc/profile.d/nix.sh
+
+PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"export PATH="/usr/local/opt/sqlite/bin:$PATH"
