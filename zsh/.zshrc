@@ -120,6 +120,7 @@ alias python="python3"
 alias ytdl="youtube-dl"
 alias pdf="percollate pdf --output new-pdf.pdf"
 alias killpsql="sudo pkill -u postgres"
+alias b='buku --suggest'
 # ssh
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
