@@ -36,7 +36,9 @@ brew cask install spotify
 brew cask install iterm2
 brew cask install google-backup-and-sync
 brew cask install vlc
+brew cask install anaconda
 brew cask install cocoapods
+brew cask install buku
 brew cask install flux
 brew cask install little-snitch
 

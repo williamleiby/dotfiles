@@ -59,7 +59,7 @@ I. System Preferences
   - Refresh Rate: Highest
   - Show Mirroring Options in Menu Bar When Available: On
   - Display Profile: Default
-  - Night Shift Schedule: Sunrise to Sunset
+  - Night Shift Schedule: 20:00 - 06:00
   - Color Temperature: Warmest
 
 Users & Groups
@@ -69,7 +69,6 @@ Users & Groups
     - LastPass
     - Itsyacal
     - Backup and Sync
-    - Flux
     - Amphetamine
     - Alfred 3
     - Dropbox
