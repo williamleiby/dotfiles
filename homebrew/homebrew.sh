@@ -66,6 +66,7 @@ brew install the_silver_searcher
 brew install asdf
 brew install postgresql
 brew install mysql
+brew install glances
 brew install redis
 brew install mongodb
 brew install go
