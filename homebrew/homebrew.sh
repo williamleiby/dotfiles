@@ -89,3 +89,7 @@ echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/pat
 /usr/local/opt/postgres/bin/createuser -s postgres
 # Heroku
 heroku update
+# NVM
+nvm install 12.0.0
+nvm install-latest-npm
+nvm alias default node
