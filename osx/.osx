@@ -8,14 +8,10 @@ defaults write com.apple.finder AppleShowAllFiles -bool TRUE
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Key repeat
 defaults write -g ApplePressAndHoldEnabled -bool false
-# Set a really fast key repeat.
+# Sets key repeat to be as fast as it can be.
 defaults write NSGlobalDomain KeyRepeat -int 0
-# Open finder in list view always
-defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 # Sets Desktop as main new window in Finder
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
-# Show the ~/Library folder.
-chflags nohidden ~/Library
+defaults write com.apple.finder NewWindowTargetPath -string "~/Desktop/"
 # Quits out of the 'Printer' application once printing has completed.
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 # Requires password right after screen wakes from sleep.
@@ -23,10 +19,12 @@ defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 # Change screenshot directory to ~/Downloads
 defaults write com.apple.screencapture locations ~/Downloads
+# Show the ~/Library folder.
+chflags nohidden ~/Library
 # Adds iOS Simulator to Applications
 sudo ln -sf /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications/Simulator.app
 # Changes default screenshot name.
-defaults write com.apple.screencapture name "screenshot"
+defaults write com.apple.screencapture name "new-screenshot"
 # Disables drop-shadow on screenshots.
 defaults write com.apple.screencapture disable-shadow -bool TRUE
 killall SystemUIServer
