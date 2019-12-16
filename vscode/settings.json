@@ -2,7 +2,7 @@
   // Editor
   "editor.fontLigatures": true,
   "editor.fontFamily": "Fira Code",
-  "editor.letterSpacing": 0.50,
+  "editor.letterSpacing": 0.5,
   "editor.fontSize": 12,
   "editor.lineHeight": 0,
   "editor.fontWeight": "500",
@@ -97,10 +97,7 @@
   // Extenstions
   "npm.packageManager": "yarn",
   "liveServer.settings.donotShowInfoMsg": true,
-  "indentRainbow.colors": [
-    "rgba(16,16,16,0.1)",
-    "rgba(16,16,16,0.2)"
-  ],
+  "indentRainbow.colors": ["rgba(16,16,16,0.1)", "rgba(16,16,16,0.2)"],
   "latex-workshop.message.update.show": false,
   "material-icon-theme.activeIconPack": "react_redux",
   // Extras
@@ -111,5 +108,5 @@
   "git.confirmSync": false,
   "git.autofetch": true,
   "git.enableSmartCommit": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

@@ -1,4 +1,5 @@
-[{
+[
+  {
     "key": "shift+cmd+d",
     "command": "editor.action.copyLinesDownAction",
     "when": "editorTextFocus"
