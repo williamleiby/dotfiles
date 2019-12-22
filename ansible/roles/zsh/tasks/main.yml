@@ -1,0 +1,2 @@
+name: "Installing ZSH"
+apt: pkg=zsh state=installed
