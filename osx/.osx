@@ -51,3 +51,7 @@ defaults write com.apple.screencapture type -string "png"
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # Set the icon size of Dock items
 defaults write com.apple.dock tilesize -int 30
+# Change DNS Servers on Wi-Fi to 1.1.1.1 (Cloudflare)
+networksetup -setdnsservers Wi-Fi 1.1.1.1
+# Flush local DNS cache
+sudo dscacheutil -flushcache
