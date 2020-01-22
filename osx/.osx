@@ -24,7 +24,7 @@ chflags nohidden ~/Library
 # Adds iOS Simulator to Applications
 sudo ln -sf /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app /Applications/Simulator.app
 # Changes default screenshot name.
-defaults write com.apple.screencapture name "new-screenshot"
+defaults write com.apple.screencapture name "screenshot"
 # Disables drop-shadow on screenshots.
 defaults write com.apple.screencapture disable-shadow -bool TRUE
 killall SystemUIServer
@@ -34,8 +34,6 @@ defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool FALSE
 defaults write com.apple.dashboard mcx-disabled -boolean TRUE
 # Disables Game Center completely.
 launchctl unload /System/Library/LaunchAgents/com.apple.gamed.plist 2> /dev/null
-# Save to Disk is set to default
-defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
 # Save screenshots in 'PNG' format.
 defaults write com.apple.screencapture type -string "png"
 # Enable snap-to-grid for icons on the desktop and in other icon views
@@ -47,7 +45,7 @@ defaults write com.apple.screencapture type -string "png"
 /usr/libexec/PlistBuddy -c "Set :FK_StandardViewSettings:IconViewSettings:iconSize 64" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :StandardViewSettings:IconViewSettings:iconSize 64" ~/Library/Preferences/com.apple.finder.plist
 # Use column view in all Finder windows by default
-# Four-letter codes for the other view modes: `icnv`, `Nlsv`, `clmv`, `Flwv`
+# other view modes: `icnv`, `Nlsv`, `clmv`, `Flwv`
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # Set the icon size of Dock items
 defaults write com.apple.dock tilesize -int 30
