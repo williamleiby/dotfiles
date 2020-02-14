@@ -1,0 +1,1 @@
+npm install npm-ls-scripts -g

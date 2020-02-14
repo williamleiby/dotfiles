@@ -76,6 +76,8 @@ brew install rbenv
 brew install ruby-build
 brew install watchman
 brew install virtualbox-guest-utils
+brew install dockutil
+brew install vault
 
 # Fonts
 brew tap homebrew/cask-fonts
@@ -93,3 +95,5 @@ heroku update
 nvm install 12.0.0
 nvm install-latest-npm
 nvm alias default node
+# Dockutil
+dockutil --remove all
