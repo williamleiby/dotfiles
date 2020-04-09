@@ -68,7 +68,8 @@ brew install postgresql
 brew install mysql
 brew install glances
 brew install redis
-brew install mongodb
+brew tap mongodb/brew
+brew install mongodb-community
 brew install go
 brew install r
 brew install terraform

@@ -39,6 +39,8 @@ $ ./install.sh
 ## Acknowledgements 👏
 
 [Corey Schafer](https://github.com/CoreyMSchafer) - Thank you for the idea!
+[](https://github.com/) - Ideas on shell scripts.
+
 
 ## License 📄
 
